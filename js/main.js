@@ -376,7 +376,7 @@ define([
 
                 this.tableHandler = on.pausable(layer, "click", lang.hitch(this, function (results) {
                     table.selectRows([results.graphic]);
-                    //this._zoomToFeature(results.graphic.geometry, selectionSymbol);
+                    this._zoomToFeature(results.graphic.geometry, selectionSymbol);
 
                 }));
 
