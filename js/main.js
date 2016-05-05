@@ -396,7 +396,7 @@ define([
                         layer.queryFeatures(q).then(lang.hitch(this, function (e) {
                             if (e.features && e.features.length && e.features.length > 0) {
                                 var f = e.features[0];
-                                this._zoomToFeature(f.geometry, selectionSymbol);
+                                //this._zoomToFeature(f.geometry, selectionSymbol);
                             }
                         }));
                     } else {
