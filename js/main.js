@@ -79,7 +79,7 @@ define([
                 window.config = config;
 
                 //supply either the webmap id or, if available, the item info
-                var itemInfo = this.config.itemInfo || this.config.webmap;
+                var itemInfo = this.config.itemInfo || this.config.webmap=a50024dc82444a3cb6e7d6e08e19e0c8;
 
                 var mapParams = new MapUrlParams({
                        center: this.config.center || null,
